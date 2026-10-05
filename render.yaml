@@ -1,0 +1,12 @@
+# Render Blueprint: New > Blueprint > pick this repo. Free plan, no card-gated dependencies.
+services:
+  - type: web
+    name: ajaia-docs
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/auth/demo-users
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DB_PATH
+        value: /data/app.db
