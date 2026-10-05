@@ -6,7 +6,7 @@ A small full-stack app inspired by Google Docs: create and rich-text edit docume
 
 ## Live demo & test accounts
 
-Live URL: `` (first load on a free host can take ~30–60 s to wake up).
+Live URL: ``
 
 | User | Email | Password |
 |------|-------|----------|
